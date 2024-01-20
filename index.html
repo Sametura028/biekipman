@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  
+    <header> <div class="header-form-background d-none">
+        <div class="container">
+            <div class="headerform row">
+                <div class="w-100 col-12 logo-area d-flex">
+                    <div>
+                        <img src="images/images01.png" alt="">
+                    </div>
+                    <div>
+                        <h1>
+                            Demo Talebi
+                        </h1>
+                    </div>
+                </div>
+                <div class=" col-lg-12 col-md-12 col-sm-12"> <i class="fa-sharp fa-regular fa-xmark"></i>
+
+                    <form action="" class="header-demo-form">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 d-flex flex-column">
+                                <label for="name">Ad Soyadnız <sup class="text-danger">*</sup></label>
+                                <input type="text" name="name" id="">
+                            </div>
+                            <div class="col-md-6 col-sm-12 d-flex flex-column">
+                                <label for="firm-name">Firma Adı <sup class="text-danger">*</sup></label>
+                                <input type="text" name="firm-name" id="">
+                            </div>
+                            <div class="col-md-6 col-sm-12 d-flex flex-column">
+                                <label for="e-mail">E-posta adresiniz <sup class="text-danger">*</sup></label>
+                                <input type="email" name="e-mail" id="">
+                            </div>
+                            <div class="col-md-6 col-sm-12 d-flex flex-column">
+                                <label for="telefon">Telefon Numaranız <sup class="text-danger">*</sup></label>
+                                <input type="text" name="telefon" id="">
+                            </div>
+                            <div class="col-12 d-flex flex-column">
+                                <label for="mesaj">Mesajınız <sup class="text-danger">*</sup></label>
+                                <textarea name="mesaj" id="" rows="4"></textarea>
+                            </div>
+                            <div class="col-12 d-flex flex-column mt-2">
+                                <input type="submit" class="btn" value="Demo Talebi Gönder">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <div class="logo"><a href="index.html"><img class="w-100" src="images/images01.png" alt=""></a>
+                    </div>
+
+                    <div class="lines">
+                        <div class="line" id="line-1"></div>
+                        <div class="line" id="line-2"></div>
+                        <div class="line" id="line-3"></div>
+                    </div>
+                    <div class="mobile-ver">
+                        <ul class="links">
+                            <li class="link"><a href="index.html">Anasayfa</a></li>
+                            <li class="link"><a href="#features">Özellikler</a></li>
+                            <li class="link"><a href="index.html">Hakkımızda</a></li>
+                            <li class="link"><a href="index.html">Referanslar</a></li>
+                            <li class="link"><a href="index.html">İletişim</a></li>
+                            <li class="link"><a href="#" class="btn btn-warning form-btn">Demo talebi</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="link language-selector">
+                        <a href="#" class="dropdown-toggle">Dil Seç</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="language-option">Türkçe</a></li>
+                            <li><a href="#" class="language-option">English</a></li>
+                            <li><a href="#" class="language-option">Español</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div class="slider">
+
+                <div>
+                    <div class="row align-items-center  ">
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div>
+                                <h1>OFFLINE veya ONLINE Sahada Kesintisiz ve Hassas Takip</h1>
+                            </div>
+                            <div>
+                                <a class="btn btn-link"><i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+                                    Detaylı bilgi alın</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12"><img class="w-100" src="images/images06.png" alt=""></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row align-items-center  ">
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div>
+                                <h1>Hassas Saha, Depo, Sevkiyat</h1>
+                                <h1>Demirbaş Takibi</h1>
+                            </div>
+                            <div>
+                                <a class="btn btn-link"><i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+                                    Detaylı bilgi alın</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12"><img class="w-100" src="images/images07.png" alt=""></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row align-items-center  ">
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div>
+                                <h1>Ekipman Bakım & Arıza</h1>
+                                <h1>Kontrolleri</h1>
+                            </div>
+                            <div>
+                                <a class="btn btn-link"><i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+                                    Detaylı bilgi alın</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12"><img class="w-100" src="images/images08.png" alt=""></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row align-items-center  ">
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div>
+                                <h1>İSG(İş Sağlığı ve Güvenliği)
+                                   </h1>
+                                   <h1> Kontrolleri</h1>
+                            </div>
+                            <div>
+                                <a class="btn btn-link"><i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+                                    Detaylı bilgi alın</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12"><img class="w-100" src="images/images09.png" alt=""></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row align-items-center  ">
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div>
+                                <h1>Ekipman Lokasyon
+                                   </h1><h1> Bilgisi</h1>
+                            </div>
+                            <div>
+                                <a class="btn btn-link"><i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+                                    Detaylı bilgi alın</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12"><img class="w-100" src="images/images10.png" alt=""></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row align-items-center  ">
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div>
+                                <h1>Güvenli bulut yazılımı</h1>
+                            </div>
+                            <div>
+                                <a class="btn btn-link"><i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+                                    Detaylı bilgi alın</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12"><img class="w-100" src="images/images02.png" alt=""></div>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="row align-items-center  ">
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div>
+                                <h1>Kurumsal Ekipman Takip</h1>
+                                <h1>ve Kontrol Yazılımı</h1>
+                            </div>
+                            <div>
+                                <a class="btn btn-link"><i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+                                    Detaylı bilgi alın</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12"><img class="w-100" src="images/images11.png" alt=""></div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="row align-items-center  ">
+                        <div class="col-md-6 col-sm-12 text-center">
+                            <div>
+                                <h1>Karekod veya RFID</h1>
+                                <h1>Tabanlı Yazılım</h1>
+                            </div>
+                            <div>
+                                <a class="btn btn-link"><i class="fa-solid fa-circle-info" style="color: #000000;"></i>
+                                    Detaylı bilgi alın</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12"><img class="w-100" src="images/images12.png" alt=""></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container mt-5 mb-5">
+            <div class="text-center">
+                <h2>Biekipman Tanıtım Videosu</h2>
+            </div>
+            <video src="bakim-takip-uygulamasi.mp4" controls class="w-100"></video>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container mt-5" id="features">
+            <div class="text-center">
+                <h2>Biekipman Özellikleri Nelerdir ?</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <h2>Kurumsal Ekipman Takip ve Kontrol Yazılımı</h2>
+                    </div>
+                    <div>
+                        <p>Çözümümüz, herhangi bir makina, ekipman, araç, veya cihaz gibi sayım – bakım-kontrol
+                            gerektiren unsurların sahada veya yerinde yapılabilecek tüm tetkiklerinin ve bakım
+                            faaliyetlerinin sıkı bir düzen içinde sistemimize akmasını ve hataların yok edilmesini
+                            sağlar.</p>
+                    </div>
+                    <div class="clear"></div>
+                    <div>
+                        <p>Çözümümüz, herhangi bir makina, ekipman, araç, veya cihaz gibi sayım – bakım-kontrol
+                            gerektiren unsurların sahada veya yerinde yapılabilecek tüm tetkiklerinin ve bakım
+                            faaliyetlerinin sıkı bir düzen içinde sistemimize akmasını ve hataların yok edilmesini
+                            sağlar.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div><img class="w-100" src="images/images11.png" alt=""></div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div><img class="w-100" src="images/images12.png" alt=""></div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <h2>Karekod veya RFID Tabanlı Yazılım</h2>
+                    </div>
+                    <div>
+                        <p>Çözümümüz karekod – RFID – Mifare gibi teknolojilerin hepsine açık olup, bu sistemleri okumak
+                            için özel teçhizatlara gerek duymaz. Sizler için geliştirdiğimiz mobil saha aplikasyonu (
+                            iOS/Android ) sayesinde, sahada veya yerinde, cep telefonunuzla kolayca okuma yaparak, yine
+                            cep telefonunuzda çıkan adımları takip ederek, kolayca kontrollerinizi, sayımlarınızı
+                            bitirebilirsiniz.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <h2>Web Tabanlı & Mobil Uyumlu Yazılım</h2>
+                    </div>
+                    <div>
+                        <p>Çözümümüz herhangi bir kurulum gerektirmeyen WEB tabanlı bir yazılımdır. Dünya’nın her
+                            yerinden bilgisayar,tablet veya mobil cihazlarınız ile ulaşmanız mümkündür. Bunun yanında
+                            sahada kontroller ve sayımlar için kişisel cep telefonlarınız yeterli olacaktır. Sahadaki
+                            tüm süreci kişisel veya kurumsal cep telefonlarınız ile yönetebilirsiniz.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div><img class="w-100" src="images/images05.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div><img class="w-100" src="images/images13.png" alt=""></div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <h2>
+                            OFFLINE veya ONLINE Sahada Kesintisiz Hassas Takip</h2>
+                    </div>
+                    <div>
+                        <p>Hizmet alanlarınızdaki her yerde internet bulunmayabilir. “Biekipman” sayesinde kapsama veya
+                            internet olmasa dahi tüm kontrol ve sayımlarınız eksiksiz olarak ana yazılıma işlenir ve
+                            raporlanır. Operasyonel mükemmeliyet için kapsama devamlılığına ihtiyacınız yoktur.
+                            “Biekipman” bu sorunu sizin için çözmektedir.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <h2>Hassas Saha, Depo, Sevkiyat, Demirbaş Takibi</h2>
+                    </div>
+                    <div>
+                        <p>“Biekipman” sayesinde nerede veya hangi süreçte olursa olsun tüm ekipmanlarınız hassas bir
+                            şekilde takip edilir. Bu sayede ;</p>
+                        <ul class="features-list">
+                            <li><i class="fa-solid fa-circle-question" style="color: #ffd400;"></i>
+                                Ekipmanlarınız şu anda nerede ?</li>
+                            <li><i class="fa-solid fa-circle-question" style="color: #ffd400;"></i>
+                                Hangi kontrollerden geçmiş ?</li>
+                            <li><i class="fa-solid fa-circle-question" style="color: #ffd400;"></i>
+                                Bakım ve kontrolleri nerede yapılmış ?</li>
+                            <li><i class="fa-solid fa-circle-question" style="color: #ffd400;"></i>
+                                Bakım ve kontrollerini kimler yapmış ?</li>
+                            <li><i class="fa-solid fa-circle-question" style="color: #ffd400;"></i>
+
+                                En son ne zaman kontrolleri yapılmış ?</li>
+                            <li><i class="fa-solid fa-circle-question" style="color: #ffd400;"></i>
+
+                                Bu kontroller yapılırken İSG adımlarınıza uyulmuş mu ?</li>
+                            <li><i class="fa-solid fa-circle-question" style="color: #ffd400;"></i>
+                                Ekipman sağlayıcısı ? Ekipman görselleri</li>
+
+                        </ul>
+                        <p>gibi daha pek çok detaya ulaşmanız mümkündür.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div><img class="w-100" src="images/images07.png" alt=""></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div><img class="w-100" src="images/images15.png" alt=""></div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <h2>
+                            Ekipman Bakım & Arıza Kontrolleri</h2>
+                    </div>
+                    <div>
+                        <p>“Biekipman” sahada kolaylık sağlamak adına kurumunuza uygun Bakım, Arıza ve İSG şablonlarını
+                            teknisyenlerinizin cep telefonlarında adım adım gösterir. Bu şablon listelerin üzerinden
+                            giderek bakım, kontrol veya arıza gideren teknisyen meslek körlüğü denilen basit hataları
+                            yapmadan işini bitirebilir. Sahadan bakım, arıza veya kontroller ile ilgili görsel veya
+                            belgeleri sisteminize yüklşeyerek kurumsal hafızayı pekiştirebilir. Tüm bu aktiviteler
+                            raporlar halinde yetki matrisine göre sunulabilir.</p>
+                        <ul class="features-list">
+                            <li><i class="fa-solid fa-files" style="color: #ffd400;"></i>
+                                Hazır bakım ve kontrol şablonları
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-files" style="color: #ffd400;"></i>
+                                Hazır arıza şablonları
+                            </li>
+
+                            <li><i class="fa-solid fa-files" style="color: #ffd400;"></i>
+                                Kurumunuza uygun hazır İSG şablonları
+                            </li>
+
+
+
+                        </ul>
+                        <p>Sahada iş yapan teknikerlerin işini çok kolaylaştıracaktır.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <h2>
+                            İSG (İş Sağlığı ve Güvenliği) Kontrolleri</h2>
+                    </div>
+                    <div>
+                        <p>“Biekipman” sahada kolaylık sağlamak adına kurumunuza uygun Bakım, Arıza ve İSG şablonlarını
+                            teknisyenlerinizin cep telefonlarında adım adım gösterir. Bu şablon listelerin üzerinden
+                            giderek bakım, kontrol veya arıza gideren teknisyen meslek körlüğü denilen basit hataları
+                            yapmadan işini bitirebilir. Sahadan bakım, arıza veya kontroller ile ilgili görsel veya
+                            belgeleri sisteminize yüklşeyerek kurumsal hafızayı pekiştirebilir. Tüm bu aktiviteler
+                            raporlar halinde yetki matrisine göre sunulabilir.</p>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div><img class="w-100" src="images/images16.png" alt=""></div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div><img class="w-100" src="images/images10.png" alt=""></div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <h2>
+                            İSG (İş Sağlığı ve Güvenliği) Kontrolleri</h2>
+                    </div>
+                    <div>
+                        <p>“Biekipman” sahada kolaylık sağlamak adına kurumunuza uygun Bakım, Arıza ve İSG şablonlarını
+                            teknisyenlerinizin cep telefonlarında adım adım gösterir. Bu şablon listelerin üzerinden
+                            giderek bakım, kontrol veya arıza gideren teknisyen meslek körlüğü denilen basit hataları
+                            yapmadan işini bitirebilir. Sahadan bakım, arıza veya kontroller ile ilgili görsel veya
+                            belgeleri sisteminize yüklşeyerek kurumsal hafızayı pekiştirebilir. Tüm bu aktiviteler
+                            raporlar halinde yetki matrisine göre sunulabilir.</p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <h2>
+                            İSG (İş Sağlığı ve Güvenliği) Kontrolleri</h2>
+                    </div>
+                    <div>
+                        <p>“Biekipman” sahada kolaylık sağlamak adına kurumunuza uygun Bakım, Arıza ve İSG şablonlarını
+                            teknisyenlerinizin cep telefonlarında adım adım gösterir. Bu şablon listelerin üzerinden
+                            giderek bakım, kontrol veya arıza gideren teknisyen meslek körlüğü denilen basit hataları
+                            yapmadan işini bitirebilir. Sahadan bakım, arıza veya kontroller ile ilgili görsel veya
+                            belgeleri sisteminize yüklşeyerek kurumsal hafızayı pekiştirebilir. Tüm bu aktiviteler
+                            raporlar halinde yetki matrisine göre sunulabilir.</p>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div><img class="w-100" src="images/images02.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12">
+                    <div>
+                        <p>© 2023 – Biekipman – Tüm hakları saklıdır.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="text-right">
+                        <img class="w-100" src="images/images17.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
